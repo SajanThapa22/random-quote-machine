@@ -1,0 +1,53 @@
+.background {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 0 20px;
+}
+
+#quote-box {
+  width: 30em;
+  aspect-ratio: 3/1;
+  margin: 0 auto;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  text-align: left;
+  background-color: #fff;
+  color: #444;
+}
+.quote-content {
+  max-width: 30em;
+}
+h1 {
+  font-size: 1.75em;
+  margin-bottom: 1.5em; /* Adjust as needed */
+}
+
+h4 {
+  text-align: right;
+  font-size: 1em;
+  margin-top: 1em; /* Remove default margin to ensure consistency */
+}
+
+button,
+a {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  width: fit-content;
+  font-weight: 500;
+  background: dodgerblue;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 1em;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
